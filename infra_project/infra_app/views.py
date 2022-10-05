@@ -1,3 +1,5 @@
+from http import HTTPStatus
+
 from django.http import HttpResponse
 
 
@@ -6,4 +8,4 @@ def index(request):
 
 
 def second_page(request):
-    return HttpResponse('А это вторая страница')
+    return HttpResponse('А это вторая страница!')
